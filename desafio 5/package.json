@@ -1,0 +1,19 @@
+{
+    "name": "desafio5",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+      "start": "node src/index.js",
+      "dev": "nodemon src/index.js",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "Seba",
+    "license": "ISC",
+    "dependencies": {
+      "express": "^4.18.2",
+      "express-handlebars": "^6.0.6"
+    }
+  }

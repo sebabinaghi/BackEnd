@@ -1,0 +1,81 @@
+[{
+  "_id": {
+    "$oid": "6373fbb1ac7d5abec3213c60"
+  },
+  "title": "product4",
+  "description": "description4",
+  "code": 444444,
+  "pic": "pic4",
+  "price": 1280,
+  "stock": 100
+},{
+  "_id": {
+    "$oid": "6373fbb1ac7d5abec3213c61"
+  },
+  "title": "product5",
+  "description": "description5",
+  "code": 555555,
+  "pic": "pic5",
+  "price": 1700,
+  "stock": 100
+},{
+  "_id": {
+    "$oid": "6373fbb1ac7d5abec3213c62"
+  },
+  "title": "product6",
+  "description": "description6",
+  "code": 666666,
+  "pic": "pic6",
+  "price": 2300,
+  "stock": 100
+},{
+  "_id": {
+    "$oid": "6373fbb1ac7d5abec3213c63"
+  },
+  "title": "product7",
+  "description": "description7",
+  "code": 777777,
+  "pic": "pic7",
+  "price": 2860,
+  "stock": 100
+},{
+  "_id": {
+    "$oid": "6373fbb1ac7d5abec3213c64"
+  },
+  "title": "product8",
+  "description": "description8",
+  "code": 888888,
+  "pic": "pic8",
+  "price": 3350,
+  "stock": 100
+},{
+  "_id": {
+    "$oid": "6373fbb1ac7d5abec3213c65"
+  },
+  "title": "product9",
+  "description": "description9",
+  "code": 999999,
+  "pic": "pic9",
+  "price": 4320,
+  "stock": 0
+},{
+  "_id": {
+    "$oid": "6373fbb1ac7d5abec3213c66"
+  },
+  "title": "product10",
+  "description": "description10",
+  "code": 101010,
+  "pic": "pic10",
+  "price": 4990,
+  "stock": 0
+},{
+  "_id": {
+    "$oid": "6373fcd5ac7d5abec3213c71"
+  },
+  "title": "product11",
+  "description": "description11",
+  "code": 121212,
+  "pic": "pic11",
+  "price": 1100,
+  "stock": 100
+}]

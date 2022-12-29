@@ -1,0 +1,26 @@
+[
+    {
+       "title": "Logitech G203 Lightsync Violeta",
+       "price": 4000,
+       "thumbnail": "https://mexx-img-2019.s3.amazonaws.com/mouse-logitech-gamer-rgb-lila_38560_5.jpeg?v187",
+       "id": 1
+    },
+    {
+       "title": "Level 20 RGB Gaming Mouse",
+       "price": 5000,
+       "thumbnail": "https://es.thermaltake.com/media/catalog/product/cache/023a745bb14092c479b288481f91a1bd/l/2/l20m01.jpg",
+       "id": 2
+    },
+    {
+       "title": "Alienware Tri-Mode Wireless Gaming Mouse",
+       "price": 250000,
+       "thumbnail": "https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/peripherals/alienware/peripherals/alienware-trimode-720m-wireless-mouse/spi/white/ng/mouse-alienware-aw720m-campaign-hero-504x350-ng.psd?fmt=png-alpha&wid=504&hei=350",
+       "id": 3
+    },
+    {
+       "title": "HP X220 Mouse retroiluminado Gaming",
+       "price": 2500,
+       "thumbnail": "https://www.infopartes.com.ar/15859-large_default/mouse-gamer-gaming-t9-usb-luz-led-varios-botones-retroiiluminado-full-pro.jpg",
+       "id": 4
+    }
+ ]
