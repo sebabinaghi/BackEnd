@@ -1,0 +1,14 @@
+*{background-color: rgb(218, 218, 218);}
+
+h1 {color: green;}
+
+button {color: blue; 
+background-color: blanchedalmond;
+border-radius: 15px;}
+
+button:hover {
+    cursor: pointer;
+    color: red;
+}
+
+.input {background-color: white;}

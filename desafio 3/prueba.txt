@@ -1,0 +1,20 @@
+[
+   {
+      "title": "PlayStation 3",
+      "price": "10000",
+      "thumbnail": "vacio",
+      "id": 1
+   },
+   {
+      "title": "PlayStation 4",
+      "price": "20000",
+      "thumbnail": "vacio",
+      "id": 2
+   },
+   {
+      "title": "PlayStation 5",
+      "price": "30000",
+      "thumbnail": "vacio",
+      "id": 3
+   }
+]

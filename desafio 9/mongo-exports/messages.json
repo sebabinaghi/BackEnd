@@ -1,0 +1,71 @@
+[{
+  "_id": {
+    "$oid": "6373fbe1ac7d5abec3213c67"
+  },
+  "email": "email1@email.com",
+  "message": "Hola1",
+  "date": "date1"
+},{
+  "_id": {
+    "$oid": "6373fbe1ac7d5abec3213c68"
+  },
+  "email": "email2@email.com",
+  "message": "Hola2",
+  "date": "date2"
+},{
+  "_id": {
+    "$oid": "6373fbe1ac7d5abec3213c69"
+  },
+  "email": "email3@email.com",
+  "message": "Hola3",
+  "date": "date3"
+},{
+  "_id": {
+    "$oid": "6373fbe1ac7d5abec3213c6a"
+  },
+  "email": "email4@email.com",
+  "message": "Hola4",
+  "date": "date4"
+},{
+  "_id": {
+    "$oid": "6373fbe1ac7d5abec3213c6b"
+  },
+  "email": "email5@email.com",
+  "message": "Hola5",
+  "date": "date5"
+},{
+  "_id": {
+    "$oid": "6373fbe1ac7d5abec3213c6c"
+  },
+  "email": "email6@email.com",
+  "message": "Hola6",
+  "date": "date6"
+},{
+  "_id": {
+    "$oid": "6373fbe1ac7d5abec3213c6d"
+  },
+  "email": "email7@email.com",
+  "message": "Hola7",
+  "date": "date7"
+},{
+  "_id": {
+    "$oid": "6373fbe1ac7d5abec3213c6e"
+  },
+  "email": "email8@email.com",
+  "message": "Hola8",
+  "date": "date8"
+},{
+  "_id": {
+    "$oid": "6373fbe1ac7d5abec3213c6f"
+  },
+  "email": "email9@email.com",
+  "message": "Hola9",
+  "date": "date9"
+},{
+  "_id": {
+    "$oid": "6373fbe1ac7d5abec3213c70"
+  },
+  "email": "email10@email.com",
+  "message": "Hola10",
+  "date": "date10"
+}]
