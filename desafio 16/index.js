@@ -12,7 +12,7 @@ const loggerError = logs.getLogger("error");
 
 
 const app = express();
-const PORT = process.env.PORT || 8095;
+const PORT = process.env.PORT || 8089;
 
 //MIDLEWARES
 app.use(express.static(__dirname + '/public'));
@@ -23,7 +23,7 @@ app.use(express.urlencoded());
   //Sesiones
 app.use(session({
     cookie: { maxAge: 600000 },
-    secret:'keyboard cat',
+    secret:`${process.env.SESSION_SECRET}`,
     resave:false,
     saveUninitialized:false,
     rolling:true
@@ -32,17 +32,17 @@ app.use(passport.initialize());
 app.use(passport.session());
 
   //Routes
-const produtosRoute = require("./routes/productos");
+const produtosRoute = require("./src/routes/productos");
 app.use("/api/productos", produtosRoute);
-const carritoRoute = require("./routes/carrito");
+const carritoRoute = require("./src/routes/carrito");
 app.use("/api/carrito", carritoRoute);
-const register = require("./routes/register");
+const register = require("./src/routes/register");
 app.use("/register", register);
-const login = require("./routes/login");
+const login = require("./src/routes/login");
 app.use("/login", login);
-const logout = require("./routes/logout");
+const logout = require("./src/routes/logout");
 app.use("/logout", logout);
-const ordenes = require("./routes/ordenes");
+const ordenes = require("./src/routes/ordenes");
 app.use("/api/ordenes", ordenes)
 
   //Manejo error 404

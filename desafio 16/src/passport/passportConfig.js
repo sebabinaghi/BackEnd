@@ -4,7 +4,7 @@ const passport = require("passport");
 const LocalStrategy = require("passport-local").Strategy;
 const fs = require("fs");
 const nodemailerConfig = require("../nodemailer-twilio/nodemailerConfig");
-const Daos = require("../daos/configDb");
+const Daos = require("../models/daos/configDb");
 
 //Clase contenedora de users y carros
 let carros = Daos.carritos;

@@ -1,12 +1,11 @@
 const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
 const ContenedorMongoDB = require ("../../contenedores/ContenedorMongoDb")
-
 const bcrypt = require('bcrypt');
 const saltRounds = 10;
 
 //Logs
-const logs = require("../../logs/loggers");
+const logs = require("../../../logs/loggers");
 const loggerConsola = logs.getLogger("consola");
 const loggerError = logs.getLogger("error");
 
@@ -15,13 +14,13 @@ class UsersDaoMongoDb extends ContenedorMongoDB {
 
     constructor() {
         super('users',new Schema({
-            email: {type: String, required: false},
+            email: {type: String, required: true},
             password: {type: String, required: true},
-            nombre: {type: String, required: false},
+            nombre: {type: String, required: true},
             direccion: {type: String, required: true},
             edad: {type: Number, required: true},
             telefono: {type: String, required: true},
-            avatar: {type: String, default: "8f474fbb3d5be1GGbab2f6629bee0jl4.jpg", required: false},
+            avatar: {type: String, default: "8f474fbb3d5be1GGbab2f6629bee0jl4.png", required: false},
             isAdmin: {type: Boolean, default: false, required: true},
             carrito: {type: Schema.ObjectId, ref: "carritos"}
         }))
